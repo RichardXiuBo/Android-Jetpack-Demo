@@ -1,8 +1,10 @@
-package com.richard.jetpackdemo;
+package com.richard.jetpackdemo.view;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.richard.jetpackdemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
