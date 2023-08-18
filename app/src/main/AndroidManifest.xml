@@ -23,7 +23,13 @@
         </activity>
 
         <activity android:name=".view.LiveDataActivity">
+
         </activity>
+
+        <activity android:name=".view.LiveDataRecActivity">
+
+        </activity>
+
     </application>
 
 </manifest>

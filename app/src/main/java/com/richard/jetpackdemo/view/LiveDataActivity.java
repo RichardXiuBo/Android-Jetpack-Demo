@@ -1,5 +1,6 @@
 package com.richard.jetpackdemo.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,7 +13,7 @@ import com.richard.jetpackdemo.R;
 
 public class LiveDataActivity extends AppCompatActivity {
 
-    public static final String TAG = "LiveDataActivity";
+    public static final String TAG = "LiveDataActivityTag";
 
     public static MutableLiveData liveData;
 
@@ -43,4 +44,8 @@ public class LiveDataActivity extends AppCompatActivity {
         }.start();
     }
 
+    public void newActivityClick(View view) {
+        Intent intent = new Intent(this, LiveDataRecActivity.class);
+        startActivity(intent);
+    }
 }
