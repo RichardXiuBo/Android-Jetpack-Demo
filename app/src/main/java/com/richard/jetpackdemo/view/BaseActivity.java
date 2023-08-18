@@ -1,6 +1,7 @@
 package com.richard.jetpackdemo.view;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,4 +30,6 @@ public abstract class BaseActivity<T extends BasePresenter>  extends AppCompatAc
     protected void onDestroy() {
         super.onDestroy();
     }
+
+
 }
